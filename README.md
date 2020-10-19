@@ -1,4 +1,4 @@
-# Aplikacje WWW
+# Programowanie Serwisów Internetowych
 
 ## Sposób oceny
 
@@ -8,7 +8,6 @@
    - W przypadku pracy grupowej, obie osoby muszą być dodane jako collaborator,
 - Oceniane będą:
    - Systematyczność commitów (oraz ich [sens](https://medium.com/@steveamaza/how-to-write-a-proper-git-commit-message-e028865e5791)),
-   - Implementacja [Gitflow](https://nvie.com/posts/a-successful-git-branching-model/),
    - Jakość kodu programistycznego,
    - Implementacja zagadnień przedstawionych na zajęciach,
    - Poziom skomplikowania projektu (np. ilość modeli, działanie endpointów, itp.)
