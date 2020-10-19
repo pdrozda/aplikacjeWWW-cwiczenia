@@ -15,12 +15,8 @@
 - Proponowany temat API (co te API będzie robić) jest dowolny i będzie przedstawiony prowadzącemu na drugich zajęciach.
 - Prowadzący rezerwuje możliwość przeprowadzenia kolokwium w przypadku braku pracy na zajęciach przez grupę studentów.
 
-## Zadania wykonywane na ćwiczeniach:
-
-- [Repozytorium z zajęciami](https://github.com/uwm-workshops/aplikacje-www/)
-
 ## Materiały zajęć przygotowali:
 
-- [Lukasz Zmudzinski](https://zmudzinski.me)
+- Łukasz Żmudziński
 - Paweł Drozda
 - Krzysztof Ropiak (Wstęp do Python)
