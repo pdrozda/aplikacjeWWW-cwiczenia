@@ -1,15 +1,20 @@
 # Modele Django
 
-Każdy ze studentów posiada stworzoną bazę MySQL na serwerze bad.uwm.edu.pl. Przykładowy użytkownik wygląda następująco:
+Każdy ze studentów posiada stworzoną bazę MySQL na serwerze 213.184.8.36. 
+Można również zainstalować XAMPP, bądź inny serwer zawierający dostęp do bazy niekoniecznie MySQL i korzystać z bazy lokalnej.
 
-| Dane studenta | Łukasz Żmudziński |
+Przykładowy użytkownik wygląda następująco:
+
+| Dane studenta | Paweł Drozda |
 | :-- | :-- |
-| Login | zmudzinskil |
-| Hasło | lukasz |
+| Login | drozdap |
+| Hasło | pawel123#@!A |
 
-Po zalogowaniu się do MySQL przez [Panel PHPMyAdmin](http://bad.uwm.edu.pl/phpmyadmin/) można (i powinno się!) hasło zmienić.
+Po zalogowaniu się do MySQL przez przez putty (login i hasło takie samo, jak do MySQL) można (i powinno się!) hasło zmienić.
 
-Można tego dokonać również poleceniem SQL:
+W shellu można użyć passwd.
+
+Dla MySQL można użyć polecenia SQL:
 ```sql
 # Nazwe usera podajemy zamiast user
 SET PASSWORD FOR 'user'@'%'=PASSWORD('nowe_haslo');
@@ -25,14 +30,13 @@ flush privileges;
 
 Celem ćwiczenia jest stworzenie projektu w Django
 
-1. Sprawdź czy masz włączone wirtualne środowisko – jeśli nie to włącz/stwórz,
-2. Zainstaluj pakiety `django` i `djangorestframework` (UWAGA! Jeżeli wykorzystana będzie baza z serwera bad należy użyć wersji `django==2.0.13`, począwszy od wersji 2.1 Django nie obsługuje już MySQL w wersji 5.5),
-3. Stwórz projekt Django,
-4. Stwórz aplikację Django w projekcie z nazwą oddającą cel projektu,
-5. Stwórz w aplikacji defaultowy widok (dowolny),
-6. W aplikacji stwórz plik `urls.py`, który będzie wyświetlał defaultowy widok
-7. W głównym pliku `urls.py` dodaj odwołanie do pliku urls w aplikacji (jako link ustaw nazwę aplikacji),
-8. Przygotuj plik `models.py`, tak aby odzwierciedlał stworzony model w MySQL Workbench na poprzednich zajęciach,
-9. Podepnij się pod bazę MySQL (dane do bazy dostaniesz od prowadzącego),
-10. Stwórz migrację,
-11. Zmigruj bazę na serwer MySQL.
+1. Zainstaluj pakiety `django` i `djangorestframework`,
+2. Stwórz projekt Django,
+3. Stwórz aplikację Django w projekcie z nazwą oddającą cel projektu,
+4. Stwórz w aplikacji defaultowy widok (dowolny),
+5. W aplikacji stwórz plik `urls.py`, który będzie wyświetlał defaultowy widok
+6. W głównym pliku `urls.py` dodaj odwołanie do pliku urls w aplikacji (jako link ustaw nazwę aplikacji),
+7. Przygotuj plik `models.py`, tak aby odzwierciedlał stworzony model w MySQL Workbench na poprzednich zajęciach,
+8. Podepnij się pod bazę MySQL,
+9. Stwórz migrację,
+10. Zmigruj bazę na serwer MySQL.
