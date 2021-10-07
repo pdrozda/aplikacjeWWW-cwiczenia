@@ -1,8 +1,8 @@
-# Programowanie Serwisów Internetowych
+# Aplikacje WWW
 
 ## Sposób oceny
 
-- Efektem finalnym pracy na zajęciach będzie projekt API stworzony w Django Rest Framework,
+- Efektem finalnym pracy na zajęciach będzie projekt API stworzony w Django Rest Framework lub po uzgodnieniu w innym frameworku,
 - Studenci mogą dobrać się w pary :dancers: lub pracować samodzielnie :dancer:,
 - Projekt studenta będzie przechowywany w publicznym repozytorium GitHub, do którego prowadzący będzie miał wgląd przez cały okres twania zajęć,
    - W przypadku pracy grupowej, obie osoby muszą być dodane jako collaborator,
