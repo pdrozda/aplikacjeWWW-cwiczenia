@@ -613,4 +613,3 @@ except IOError:
 7. Stwórz funkcję, która wypisuje podany tekst od tyłu np. `koteł -> łetok`.
 8. Stwórz nowy moduł w projekcie o nazwie `file_manager`. Stwórz klasę `FileManager` z parametrem w konstruktorze `file_name`. Klasa będzie zawierać dwie metody: `read_file` oraz `update_file`. Funkcja `update_file` powinna zawierac parametr `text_data`, które w efekcie ma być dopisane na końcu pliku. Funkcja `read_file` powinna zwrócić zawartość pliku.
 9. Zaimportuj klasę `FileManager` w innym pliku, a następnie zademonstruj działanie klasy.
-10. W folderze projektu stwórz nowy `virtualenv`, a następnie zainstaluj moduł: https://github.com/yougov/chucknorris. Stwórz nowy moduł `chuck_norris` w swoim projekcie i stwórz funkcję która podłączy się pod ściągnięty moduł.
