@@ -421,7 +421,6 @@ stworzy nowy folder w tym miejscu i skopiuje interpreter Pythona, który był ak
 
 Kolejną czynnością, którą trzeba wykonać aby rozpocząć pracę w tym środowisku jest jego aktywacja, która polega  na  uruchomieniu  skryptu  z  pliku Scripts\activateznajdującego się w folderze nowego środowiska. Od teraz aktywnym interpreterem jest ten zawarty w nowym środowisku. Możemy teraz uruchamiać skrypty Pythona, instalować pakiety oraz korzystać z konsoli Python w odniesieniu do tego środowiska.
 
-Na zajęciach na podstawie dokumentacji ze strony https://virtualenv.pypa.io/en/stable/userguide/zostanie zaprezentowany sposób konfiguracji i korzystania ze środowiska wirtualnego.
 
 ## Obiektowy Python
 
